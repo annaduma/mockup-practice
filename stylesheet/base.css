@@ -1,8 +1,97 @@
 /* 16px == 1rem */
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
 }
 
+.all-content {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.main-header {
+  background-color: black;
+}
+
+.book-a-cat {
+  color: firebrick;
+}
+
+.main-title {
+  color: white;
+}
+
+.nav-box {
+  background-color: silver;
+  padding: .75rem 2rem;
+  margin: 0 auto;
+}
+
+.header-subtitle {
+  color: gray;
+}
+
 .testimonial {
   font-style: italic;
+}
+
+body {
+  margin: 1;
+  padding: 1;
+}
+
+.main-content {
+  display: inline-block;
+  width: 70%;
+  height: auto;
+}
+
+.aside {
+  display: inline-block;
+  width: 25%;
+  height: 30rem;
+  border: 1px solid #333;
+}
+
+.biscuit-image {
+  position: relative;
+  max-width: 45%;
+  height:
+}
+
+.odin-image {
+  position: relative;
+  max-width: 45%;
+  top: 2rem;
+  left: 2rem;
+}
+
+.footer {
+  background-color: black;
+}
+
+.main-footer {
+  padding: 1rem;
+}
+
+.email-address {
+  color: firebrick;
+}
+
+.copyright-footer {
+  text-align: center;
+  color: white;
 }
