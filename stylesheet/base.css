@@ -82,22 +82,27 @@ html, body {
   position: relative;
 }
 
-.biscuit-title {
+.aside-title-rates:hover {
+  color: purple;
   text-align: center;
 }
 
-.biscuit-image {
+.one-cat-title {
+  text-align: center;
+}
+
+.one-cat-image {
   position: relative;
   max-width: 100%;
   margin: 0 auto;
 }
 
-.odin-title {
+.two-cat-title {
   text-align: center;
   position: relative;
 }
 
-.odin-image {
+.two-cat-image {
   position: relative;
   max-width: 100%;
   margin: 0 auto;
@@ -109,7 +114,7 @@ html, body {
   position: relative;
 }
 
-.biscuit-text {
+.one-cat-text {
   display: flex;
   flex-direction: row;
   margin-left: -0.5rem;
