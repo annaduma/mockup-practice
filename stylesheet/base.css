@@ -70,7 +70,6 @@ html, body {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  flex-shrink: 0;
   width: 11rem;
   height: 35rem;
   border: 1px solid #333;
