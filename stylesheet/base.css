@@ -1,33 +1,35 @@
 /* 16px == 1rem */
 * {
   box-sizing: border-box;
+  font-family: Arial, Verdana, sans-serif;
 }
 
-html {
+html, body {
   font-size: 16px;
-}
-
-.all-content {
-  font-family: Tahoma, Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  border: 1px solid black;
-  margin: 0 auto;
-  height: auto;
-  width: auto;
-  justify-content: space-between;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   position: relative;
-  width: 100%;
 }
 
 .main-header {
   background-color: black;
+  padding-top: 1rem;
+  border-left: 0;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .book-a-cat {
   color: firebrick;
+  position: absolute;
+  right: 0;
+  padding-right: 1rem;
 }
 
 .main-title {
@@ -35,48 +37,97 @@ html {
 }
 
 .nav-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   background-color: silver;
-  padding: .75rem 2rem;
-  margin: 0 auto;
+  width: 100%;
+  padding: .75rem 1rem;
 }
 
 .header-subtitle {
-  color: gray;
+  color: grey;
+  font-size: 80%;
 }
 
 .testimonial {
   font-style: italic;
 }
 
-body {
-  margin: 1;
-  padding: 1;
-}
-
 .main-content {
-  display: inline-block;
   width: 70%;
   height: auto;
+  padding: 1rem;
+}
+
+.material-icons {
+  display: inline;
+  font-size: 100%;
 }
 
 .aside {
-  display: inline-block;
-  width: 25%;
-  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+  width: 11rem;
+  height: 35rem;
   border: 1px solid #333;
+  margin: 2rem 0rem 2rem 0rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.aside-title {
+  text-align: center;
+  position: relative;
+}
+
+.biscuit-title {
+  text-align: center;
 }
 
 .biscuit-image {
   position: relative;
-  max-width: 45%;
-  height:
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.odin-title {
+  text-align: center;
+  position: relative;
 }
 
 .odin-image {
   position: relative;
-  max-width: 45%;
-  top: 2rem;
-  left: 2rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.aside-text {
+  font-size: 0.75rem;
+  text-align: left;
+  position: relative;
+}
+
+.biscuit-text {
+  display: flex;
+  flex-direction: row;
+  margin-left: -0.5rem;
+  margin-right: -1rem;
+}
+
+.book-now1 {
+  color: firebrick;
+  font-size: 0.75rem;
+  position: relative;
+}
+
+.book-now2 {
+  color: firebrick;
+  font-size: 0.75rem;
+  position: absolute;
+  right: 3px;
 }
 
 .footer {
@@ -84,7 +135,13 @@ body {
 }
 
 .main-footer {
+  color: white;
+  text-align: left;
   padding: 1rem;
+}
+
+.footer-text {
+  color: white;
 }
 
 .email-address {
